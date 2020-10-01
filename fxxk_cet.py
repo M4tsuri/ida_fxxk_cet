@@ -41,7 +41,7 @@ def load_section(elf, name):
     if not tmp:
         log("%s not found, this file may be damaged." % name)
         return
-    log("%s found.", name)
+    log("%s found." % name)
     return tmp
 
 
