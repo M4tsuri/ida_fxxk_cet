@@ -3,6 +3,8 @@
 
 症状：打开ELF文件时IDA报错：`Unexpected plt stub`，且符号解析不正确，函数开头存在endbr指令。
 
+依赖：elftools库
+
 如下图所示（题目为2020 ciscn final Day1 server）：
 
 ![](./images/before.png)
